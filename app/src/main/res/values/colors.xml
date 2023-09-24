@@ -3,7 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="cinza">#696969</color>
-    <color name="cinza_escuro">#A9A9A9</color>
+    <color name="cinza_escuro">#C5C1C1</color>
     <color name="vermelho">#FF0000</color>
     <color name="azul_toquio">#1981CD</color>
+    <color name="lavander">#8692f7</color>
+
+
 </resources>

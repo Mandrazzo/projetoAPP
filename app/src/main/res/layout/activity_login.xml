@@ -110,7 +110,7 @@
                 android:textColor="@color/azul_toquio" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/botao_entrar"
+                android:id="@+id/btnentrar"
                 android:layout_width="168dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
