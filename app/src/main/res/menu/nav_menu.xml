@@ -16,6 +16,12 @@
             android:icon="@drawable/nav_hora"
             android:title="Histórico"
             android:checked="true" />
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/nav_pessoa"
+            android:title="Perfil"
+            android:checked="true" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/nav_settings"

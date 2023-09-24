@@ -1,4 +1,4 @@
-package com.example.projeto;
+package com.example.projeto.fragment;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -13,12 +13,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.example.projeto.R;
 import com.example.projeto.R.id;
 
-import com.example.projeto.fragment.ConfFragment;
-import com.example.projeto.fragment.HistoricoFragment;
-import com.example.projeto.fragment.PedidosFragment;
-import com.example.projeto.fragment.SuporteFragment;
 import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawerLayout;
@@ -55,6 +53,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             openFragment(new HistoricoFragment());
         } else if (itemId == id.nav_suporte) {
             openFragment(new SuporteFragment());
+        } else if (itemId == id.nav_perfil) {
+            openFragment(new PerfilFragment());
         } else if (itemId == id.nav_sair) {
             Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
             finish();
